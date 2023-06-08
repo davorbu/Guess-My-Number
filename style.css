@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  color: #EEE;
+  background-color: #222;
+}
+
+header {
+  position: relative;
+  height: 35vh;
+  border-bottom: 7px solid #EEE;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 4rem;
+  text-align: center;
+  color: #FFF;
+  margin-bottom: 1rem;
+}
+
+.between {
+  font-size: 2rem;
+  color: #FFF;
+  margin-bottom: 1rem;
+}
+
+.btn {
+  background-color: #EE82EE;
+  color: #FFF;
+  font-size: 2rem;
+  border: none;
+  border-radius: 5px;
+  padding: 1rem 2rem;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #FF00FF;
+}
+
+.number {
+  background: #EEE;
+  color: #333;
+  font-size: 6rem;
+  padding: 2rem;
+  border-radius: 50%;
+  text-align: center;
+  width: 100px;
+  height: 100px;
+}
+
+main {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 65vh;
+}
+
+.left, .right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+}
+
+.guess {
+  background: none;
+  border: 4px solid #EEE;
+  font-family: inherit;
+  color: inherit;
+  font-size: 5rem;
+  padding: 1rem;
+  text-align: center;
+  margin-bottom: 3rem;
+  width: 50%;
+}
+
+.message {
+  font-size: 2rem;
+  color: #FFF;
+  margin-bottom: 2rem;
+}
+
+.label-score, .label-highscore {
+  font-size: 2rem;
+  color: #FFF;
+  margin-bottom: 1rem;
+}
+
+.score, .highscore {
+  font-weight: 600;
+}
